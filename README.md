@@ -22,26 +22,22 @@ sum_result = x.tensor_sum(ones_tensor)
 # Calcular la media de un tensor de unos
 mean_result = x.tensor_mean(ones_tensor)
 
-Métodos Disponibles
-La clase TensorCalculator proporciona los siguientes métodos:
+#Métodos Disponibles
+#La clase TensorCalculator proporciona los siguientes métodos:
 
-tensor_ones(dim_x, dim_y, dim_z): Crea un tensor de unos con las dimensiones especificadas.
+tensor_ones(dim_x, dim_y, dim_z): #Crea un tensor de unos con las dimensiones especificadas.
 
-tensor_zeros(dim_x, dim_y, dim_z): Crea un tensor de ceros con las dimensiones especificadas.
+tensor_zeros(dim_x, dim_y, dim_z): #Crea un tensor de ceros con las dimensiones especificadas.
 
-tensor_random(dim_x, dim_y, dim_z): Crea un tensor aleatorio con las dimensiones especificadas.
+tensor_random(dim_x, dim_y, dim_z): #Crea un tensor aleatorio con las dimensiones especificadas.
 
-tensor_sum(tensor): Calcula la suma de los elementos de un tensor.
+tensor_sum(tensor): #Calcula la suma de los elementos de un tensor.
 
-tensor_mean(tensor): Calcula la media de los elementos de un tensor.
+tensor_mean(tensor):# Calcula la media de los elementos de un tensor.
 
-tensor_product(tensor1, tensor2): Realiza el producto de dos tensores elemento por elemento.
+tensor_mult(tensor1, tensor2): #Realiza el producto de dos tensores elemento por elemento.
 
-tensor_dot(tensor1, tensor2): Calcula el producto punto entre dos tensores.
+tensor_transpose(tensor): #Realiza la transposición de un tensor.
 
-tensor_reshape(tensor, new_shape): Cambia la forma de un tensor a la forma especificada.
-
-tensor_transpose(tensor): Realiza la transposición de un tensor.
-
-Ejemplo
-Puedes encontrar un ejemplo de uso de la clase TensorCalculator en el archivo example.py en este repositorio.
+## Ejemplo
+## Puedes encontrar un ejemplo de uso de la clase TensorCalculator en el archivo example.py en este repositorio.
