@@ -37,6 +37,8 @@ tensor_mean(tensor):# Calcula la media de los elementos de un tensor.
 
 tensor_mult(tensor1, tensor2): #Realiza el producto de dos tensores elemento por elemento.
 
+tensor_sqrt(tensor1) #realiza la raiz del tensor
+
 tensor_transpose(tensor): #Realiza la transposición de un tensor.
 
 ## Ejemplo
